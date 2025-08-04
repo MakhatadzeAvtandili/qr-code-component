@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #d5e1ef;
+}
+
+.card {
+  margin: 230.5px auto;
+  width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: white;
+  font-family: "Outfit", sans-serif;
+  box-shadow: 0 25px 25px 0 hsla(0, 0%, 0%, 0.047);
+}
+
+.top {
+  width: 288px;
+  height: 288px;
+  background-image: url("./images/image-qr-code.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.bottom {
+  margin: 24px auto;
+  padding: 0 16px;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 120%;
+  font-weight: bold;
+  letter-spacing: 0;
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: hsl(216, 15%, 48%);
+}
