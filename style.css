@@ -4,39 +4,45 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-margin: 230.5px;
+  --main-bg: #d5e1ef;
+}
+
 html {
-  background-color: #d5e1ef;
+  background-color: var(--main-bg);
+  font-size: 10px;
 }
 
 .card {
-  margin: 230.5px auto;
-  width: 320px;
-  padding: 16px;
-  border-radius: 20px;
+  margin: clamp(50px, 10vw, 23.05rem) auto;
+  width: 32rem;
+  padding: 1.6rem;
+  border-radius: 2rem;
   background-color: white;
   font-family: "Outfit", sans-serif;
   box-shadow: 0 25px 25px 0 hsla(0, 0%, 0%, 0.047);
 }
 
 .top {
-  width: 288px;
-  height: 288px;
+  width: 28.8rem;
+  height: 28.8rem;
   background-image: url("./images/image-qr-code.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .bottom {
-  margin: 24px auto;
-  padding: 0 16px;
+  margin: 2.4rem auto;
+  padding: 0 1.6rem;
   text-align: center;
 }
 
 h1 {
-  margin-bottom: 16px;
-  font-size: 22px;
+  margin-block-end: 1.6rem;
+  font-size: 2.2rem;
   line-height: 120%;
   font-weight: bold;
   letter-spacing: 0;
@@ -44,8 +50,8 @@ h1 {
 }
 
 p {
-  font-size: 15px;
+  font-size: 1.5rem;
   line-height: 140%;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
   color: hsl(216, 15%, 48%);
 }
